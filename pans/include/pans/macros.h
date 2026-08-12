@@ -1,5 +1,5 @@
-#ifndef PANS_INCLUDE_PANS_MACROS_H
-#define PANS_INCLUDE_PANS_MACROS_H
+#ifndef __PANS_INCLUDE_PANS_MACROS_H__
+#define __PANS_INCLUDE_PANS_MACROS_H__
 
 
 #include <cassert>
@@ -118,4 +118,4 @@ using s32 = int32_t;
 using u64 = uint64_t;
 using s64 = int64_t;
 
-#endif // PANS_INCLUDE_PANS_MACROS_H
+#endif // __PANS_INCLUDE_PANS_MACROS_H__
