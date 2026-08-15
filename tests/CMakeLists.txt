@@ -47,3 +47,10 @@ foreach(TEST_SOURCE IN LISTS PANS_TEST_SOURCE_FILES)
     #添加测试
     add_test(NAME ${TEST_NAME} COMMAND ${TEST_NAME})
 endforeach()
+ 
+
+message(STATUS "CURRENT SOURCE DIR: ${CMAKE_CURRENT_SOURCE_DIR}")
+message(STATUS "INNER TESTS DIR: ${CMAKE_CURRENT_SOURCE_DIR}/inner_tests")
+message(STATUS "EXISTS: ${EXISTS} ${CMAKE_CURRENT_SOURCE_DIR}/inner_tests")
+
+add_subdirectory(inner_tests)
